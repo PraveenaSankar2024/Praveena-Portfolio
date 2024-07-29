@@ -19,7 +19,7 @@
 }
 
 body{
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif !important;
 }
 
 /* header */
@@ -268,12 +268,51 @@ ul.social-icons {
 }
 
 
+/* contact-section */
+.contact-section h4{
+    font-size: 30px;
+    margin: 20px 0 ;
+    font-weight: 900;
+}
+
+.contact-section h4 span{
+    color: var(--primary);
+}
+
+.contact-section{
+    background-color: #14171c;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
 
 
+.contact-section form  input,textarea{
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 2px;
+    margin: 10px;
+    resize: none;
+}
 
 
+/* footer section  */
 
+footer{
+    background-color: var(--dark-primary);
+    color: gray;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+}
 
+footer a{
+    text-decoration: none;
+    color: var(--primary);
+}
 
 
 
