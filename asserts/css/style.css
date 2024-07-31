@@ -35,6 +35,8 @@ header{
     align-items: center;
 }
 
+
+
 /* logo */
 
 header .logo{
@@ -318,7 +320,50 @@ footer a{
 }
 
 
+/* Media Query  */
 
+@media only screen and (max-width:600px)
+{
+    header{
+        flex-direction: column;
+    }
+    header > *{
+        margin-bottom: 10px;
+    }
+    /* hero section  */
+   section.hero-section{
+        flex-direction: column;
+       padding: 40px;
+    }
+    /* About Section  */
+    section.about-section{
+        flex-direction: column;
+    }
+    section .about-section__desc{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    /* My work  */
+
+   .work-section{
+    padding: 0px;
+   }
+
+    .work-section-items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-section__card{
+        margin:20px ;
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    /* contact section  */
+    .contact-section form input,textarea{
+        width: 100%;
+    }
+}
 
 
 
